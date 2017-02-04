@@ -1,0 +1,43 @@
+#headerPane {
+    -fx-background-color: linear-gradient(#2eab60, #2eab60);
+    -fx-pref-width: 100%;
+    -fx-pref-height: 3em;
+    -fx-padding: 0.5em;
+    -fx-min-height: 40px;
+}
+
+#header {
+    -fx-border-color: #CCCCCC;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-background-color:#FFFFFF;
+}
+#logoText {
+    -fx-font-size: 1.8em;
+    -fx-translate-x: 1.0em;
+    -fx-translate-y: -0.3em;
+    -fx-fill: white;
+    -fx-font-weight: normal;
+}
+
+.fieldItem {
+    -fx-fill: gray;
+}
+
+#logo    {
+    -fx-fill: white;
+    -fx-font-size: 1.7em;
+    -fx-translate-y: 0.3em;
+    -fx-translate-x: 0.2em;
+    -fx-padding: 0.5em;
+}
+
+.thumbs-down-icon    {
+    -fx-fill: white;
+    -fx-font-size: 1.4em;
+    -fx-translate-y: 0.4em;
+}
+.thumbs-down-icon:pressed{
+    -fx-font-family: 'FontAwesome';
+    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,1.0), 10, 0, 0, 0);
+}
